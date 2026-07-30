@@ -130,7 +130,7 @@ Only after completing this planning stage did the technical implementation begin
 
 The complete planning process is illustrated below.
 
-![Project Planning Flow](04-Assets/Project_Planning_Flow.png)
+![Project Planning Flow](04-Assets/Project_plannig_flow.png)
 
 This business-first approach helped ensure that every SQL query, transformation, and visualization was aligned with a clear business objective rather than being created simply because the data was available.
 
@@ -143,7 +143,7 @@ Before building the dashboard, the data went through a complete preparation pipe
 
 The workflow followed in this project is illustrated below.
 
-![tecnical_view Preview](04-Assets/Project_Workflow_(Technical_View).png)
+![tecnical_view Preview](04-Assets/Project_Workflow _(Technical_ View).png)
 
 
 Each stage builds on the previous one. Instead of fixing issues inside Power BI, all data preparation was completed in SQL Server first. This approach keeps the reporting layer simple, improves performance, and makes the analytical results easier to trust.
