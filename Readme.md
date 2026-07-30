@@ -143,7 +143,7 @@ Before building the dashboard, the data went through a complete preparation pipe
 
 The workflow followed in this project is illustrated below.
 
-![tecnical_view Preview](04-Assets/Project_Workflow _(Technical_View).png)
+![tecnical_view Preview](04-Assets/Project_Workflow_(Technical_View).png)
 
 
 Each stage builds on the previous one. Instead of fixing issues inside Power BI, all data preparation was completed in SQL Server first. This approach keeps the reporting layer simple, improves performance, and makes the analytical results easier to trust.
