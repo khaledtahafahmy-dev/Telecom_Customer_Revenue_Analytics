@@ -5,7 +5,7 @@ TRUNCATE TABLE customers;
 
 
 BULK INSERT customers
-FROM 'C:\Users\career\Desktop\khaled\work\DA\projects\first stage\4 - Sql server - power bi\Telecom Customer Revenue Analytics\customers.csv'
+FROM 'C:\Users\customers.csv'
 WITH
 (
     FORMAT = 'CSV',
@@ -19,7 +19,7 @@ TRUNCATE TABLE Devices;
 
 
 BULK INSERT Devices
-FROM 'C:\Users\career\Desktop\khaled\work\DA\projects\first stage\4 - Sql server - power bi\Telecom Customer Revenue Analytics\Devices.csv'
+FROM 'C:\Users\Devices.csv'
 WITH
 (
     FORMAT = 'CSV',
@@ -34,7 +34,7 @@ TRUNCATE TABLE revenue;
 
 
 BULK INSERT revenue
-FROM 'C:\Users\career\Desktop\khaled\work\DA\projects\first stage\4 - Sql server - power bi\Telecom Customer Revenue Analytics\revenue.csv'
+FROM 'C:\Users\revenue.csv'
 WITH
 (
     FORMAT = 'CSV',
